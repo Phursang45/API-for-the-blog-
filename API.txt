@@ -1,0 +1,35 @@
+Here are the urls for the APIs and Description
+
+
+● Get all blogs.
+Method: GET
+URL: http://localhost:3000/blogs
+
+● Get blog by Id.
+Method: GET
+URL: http://localhost:3000/blogs/:id 
+Example: http://localhost:3000/blogs/2
+
+
+● Post blog
+Method: POST
+URL: http://localhost:3000/blogs 
+ Click onto Body-> Raw-> then JSON and put the below data as example
+
+{
+    "title":"Sample",
+    "description":"This is my api hello",
+    "category":"Nepali"
+}
+
+● Update blog.
+Method: PUT
+URL: http://localhost:3000/blogs/:id 
+Example: http://localhost:3000/blogs/2
+Click onto Body-> Raw-> then JSON and put the below data as example
+
+{
+    "title":"Sample",
+    "description":"This is my api hello",
+    "category":"Nepali"
+}
